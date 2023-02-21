@@ -15,5 +15,5 @@ app.use(routes);
 app.use(express.static(path.join(__dirname, "uploads")));
 
 app.listen(1212, () => {
-    console.log(`http://localhost:1212`);
+    console.log(`Server is deployed successfully!`);
 });
